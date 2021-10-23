@@ -29,7 +29,6 @@ router.post('/', auth, (req, res) => {
     });
 
     newItem.save().then(item => {
-        console.log('Epic')
         res.json(item);
     });
 });
