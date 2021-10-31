@@ -6,6 +6,10 @@ const itemSchema = new Schema({
         type: String,
         required: true
     },
+    id: {
+        type: String,
+        required: true
+    },
     date: {
         type: Date,
         default: Date.now
